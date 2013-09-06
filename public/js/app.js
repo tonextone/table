@@ -1,10 +1,10 @@
 $(function() {
 	
-	// production:
-	// Parse.initialize("gLj3mzrfuFxgHrFWOGgqJHOlGOM02Uy5ZNsA1mNo", "4UyAxsyL11L66nHW14DzYBOKz0jjB2wBDEuVwDCw");
-	
 	// Development:
 	Parse.initialize("T2aDk0MXE4GQYX1cNXmQxpYuK6wkXg0WT6llcvYz", "i0Zcr8nSkcNtI3Zsl6Zd9I4qSHlOAZUDaWcr2VPW");
+	
+	// production:
+	// Parse.initialize("gLj3mzrfuFxgHrFWOGgqJHOlGOM02Uy5ZNsA1mNo", "4UyAxsyL11L66nHW14DzYBOKz0jjB2wBDEuVwDCw");
 	
 	Parse.$ = jQuery;
 	

@@ -23,7 +23,7 @@ body {
     line-height: 1.4em;
     background: #eeeeee;
     color: #4d4d4d;
-    width: 550px;
+    width: 320px;
     margin: 0 auto;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -35,7 +35,7 @@ body {
 #app {
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
-    margin: 130px 0 40px 0;
+    margin: 10px 0 40px 0;
     border: 1px solid #ccc;
     position: relative;
     border-top-left-radius: 2px;
@@ -65,49 +65,12 @@ body {
     color: #a9a9a9;
 }
 
-#app h1 {
-    position: absolute;
-    top: -120px;
-    width: 100%;
-    font-size: 70px;
-    font-weight: bold;
-    text-align: center;
-    color: #888;
-    -webkit-text-rendering: optimizeLegibility;
-    -moz-text-rendering: optimizeLegibility;
-    -ms-text-rendering: optimizeLegibility;
-    -o-text-rendering: optimizeLegibility;
-    text-rendering: optimizeLegibility;
-}
-
 .section {
     position: relative;
 }
 
 #header {
-    padding-top: 15px;
     border-radius: inherit;
-}
-
-#header:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 15px;
-    z-index: 2;
-    border-bottom: 1px solid #6c615c;
-    background: #8d7d77;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(132, 110, 100, 0.8)),to(rgba(101, 84, 76, 0.8)));
-    background: -webkit-linear-gradient(top, rgba(132, 110, 100, 0.8), rgba(101, 84, 76, 0.8));
-    background: -moz-linear-gradient(top, rgba(132, 110, 100, 0.8), rgba(101, 84, 76, 0.8));
-    background: -o-linear-gradient(top, rgba(132, 110, 100, 0.8), rgba(101, 84, 76, 0.8));
-    background: -ms-linear-gradient(top, rgba(132, 110, 100, 0.8), rgba(101, 84, 76, 0.8));
-    background: linear-gradient(top, rgba(132, 110, 100, 0.8), rgba(101, 84, 76, 0.8));
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#9d8b83', EndColorStr='#847670');
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
 }
 
 #new-foo,
@@ -211,7 +174,7 @@ label[for='toggle-all'] {
 
 #foo-list li.editing .edit {
     display: block;
-    width: 506px;
+    width: 90%;
     padding: 13px 17px 12px 17px;
     margin: 0 0 0 43px;
 }
@@ -314,15 +277,18 @@ label[for='toggle-all'] {
 
 #footer {
     color: #777;
-    padding: 0 15px;
+    padding: 5px 15px;
+/*
     position: absolute;
     right: 0;
     bottom: -31px;
+*/
     left: 0;
     z-index: 1;
     text-align: center;
 }
 
+/*
 #footer:before {
     content: '';
     position: absolute;
@@ -337,19 +303,18 @@ label[for='toggle-all'] {
     0 42px 0 -6px rgba(255, 255, 255, 0.8),
     0 43px 2px -6px rgba(0, 0, 0, 0.2);
 }
-
-#foo-count {
-    float: left;
-    text-align: left;
-}
+*/
 
 #filters {
+    display: inline;
     margin: 0;
     padding: 0;
     list-style: none;
+/*
     position: absolute;
     right: 0;
     left: 0;
+*/
 }
 
 #filters li {
@@ -407,7 +372,7 @@ label[for='toggle-all'] {
 }
 
 #app .content .login {
-    width: 350px;
+    width: 70%;
     margin: 45px auto 25px auto;
 }
 
@@ -422,7 +387,7 @@ label[for='toggle-all'] {
     margin-bottom: 10px;
     font-size: 20px;
     padding: 5px;
-    width: 340px;;
+    width: 100%;
 }
 
 #app .content .login .signup-form {
