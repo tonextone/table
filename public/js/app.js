@@ -402,4 +402,13 @@ $(function() {
 	new AppRouter;
 	new AppView;
 	Parse.history.start();
+	
+	Parse.Cloud.run('foo', {}, {
+		success: function(result) {
+			console.log(result);
+		},
+		error: function(error) {
+			console.log(error);
+		}
+	});
 });
